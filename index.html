@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohd Hassan Khan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0366d6;
+        }
+        .repo-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .repo-item {
+            margin-bottom: 10px;
+        }
+        .repo-link {
+            text-decoration: none;
+            color: #0366d6;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <!-- Add your content here -->
+
+    <h1>Welcome to My GitHub Page</h1>
+
+    <h2>My Repositories</h2>
+
+    <ul class="repo-list" id="repo-list">
+        <!-- Repositories will be dynamically added here -->
+    </ul>
+
+    <script>
+        // Fetch repositories from the GitHub API
+        fetch('https://api.github.com/users/hassankhan2608/repos')
+            .then(response => response.json())
+            .then(repos => {
+                const repoList = document.getElementById('repo-list');
+                repos.forEach(repo => {
+                    const repoItem = document.createElement('li');
+                    repoItem.className = 'repo-item';
+
+                    const repoLink = document.createElement('a');
+                    repoLink.className = 'repo-link';
+                    repoLink.href = repo.html_url;
+                    repoLink.textContent = repo.name;
+
+                    repoItem.appendChild(repoLink);
+                    repoList.appendChild(repoItem);
+                });
+            })
+            .catch(error => console.error('Error fetching repositories:', error));
+    </script>
+
 </body>
 </html>
+
