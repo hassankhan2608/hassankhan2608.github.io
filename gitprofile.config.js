@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'hassankhan2608',
-    twitter: 'arif_szn',
+    twitter: '',
     mastodon: '',
     facebook: '',
     instagram: '',
