@@ -1,5 +1,14 @@
 // gitprofile.config.js
 
+profile: {
+  summary: `
+    I am a passionate Data Scientist with experience in Data Analysis and Machine Learning.
+    Currently working as a Data Scientist intern at iNeuron.ai. Skilled in Python, Machine Learning,
+    Data Science, and more. I love to explore new technologies and solve challenging problems.
+  `,
+},
+
+
 const config = {
   github: {
     username: 'hassankhan2608', // Your GitHub org/user name. (Required)
