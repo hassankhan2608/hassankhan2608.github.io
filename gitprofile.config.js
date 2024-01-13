@@ -53,45 +53,57 @@ const config = {
     {
       company: 'Meri Skill',
       position: 'Data Analyst',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      from: 'November 2023',
+      to: 'December 2023',
+      companyLink: '',
     },
   ],
-  /* certifications: [
+   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Data Science & Business Analysis',
+      body: 'From Boston Institute of Analytics',
+      year: 'December 2023',
+      link: 'https://bostoninstituteofanalytics.org/bia-certification/QklBXzQ1N19CSUE='
     },
-  ], */
+    {
+      name: 'Data Visualization with Python',
+      body: 'By IBM from Coursera',
+      year: 'December 2023',
+      link: 'https://coursera.org/share/638b558b85c41c04a281acf518ae3375'
+    },
+    {
+      name: 'Data Analysis with Python',
+      body: 'By IBM from Coursera',
+      year: 'December 2023',
+      link: 'https://coursera.org/share/ab4ae3a13223e352a1d714229e6afd9b'
+    },
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Rizvi College of Arts, Science & Commerce',
+      degree: 'B.Sc in Information Technology',
+      from: '2020',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Maharashtra College of Arts, Science & Commerce',
+      degree: 'XI & XII',
+      from: '2018',
+      to: '2020',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: '',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
     {
-      title: 'Project Name',
+      title: '',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
@@ -100,7 +112,7 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'linkedin', // medium | dev
+    source: '', // medium | dev
     username: 'hassankhan2608', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
