@@ -41,6 +41,7 @@ const config = {
     'Tableau',
     'SQL',
     'NLP',
+    'Prompt Engeenering'
   ],
   experiences: [
     {
