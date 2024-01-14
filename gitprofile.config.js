@@ -18,7 +18,7 @@ const config = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'hassankhan2608',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
@@ -112,9 +112,9 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
+    source: 'medium', // medium | dev
     username: 'hassankhan2608', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    limit: 4, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
